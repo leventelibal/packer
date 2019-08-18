@@ -24,6 +24,11 @@
         {
             "type": "breakpoint",
             "note": "find bug fix"
+        },
+        {
+            "type": "file",
+            "source": "test_file",
+            "destination": "/tmp/test_file"
         }
     ]
   }
