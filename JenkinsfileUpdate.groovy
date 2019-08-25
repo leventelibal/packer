@@ -65,7 +65,7 @@ pipeline{
                 echo "Hello"
             }
         }
-    }
+    
     post{
         success {
             echo "Done"
