@@ -58,14 +58,13 @@ pipeline{
                 }
             }
         }
-    }
         stage("Build Image"){
             steps{
                 //sh "packer build updated/updated.json"
                 echo "Hello"
             }
         }
-    
+    }
     post{
         success {
             echo "Done"
